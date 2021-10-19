@@ -46,7 +46,7 @@ const _old = {
 
 const _new = {
     'id': 15,
-    'boo': 'baa',
+    'boo': 'bee',
     'jaa': 'joo'
 };
 
