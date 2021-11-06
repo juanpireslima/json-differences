@@ -1,6 +1,6 @@
 {
   "name": "json-differences",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Find the differences between two JSONs",
   "main": "src/json.differ.js",
   "repository": {
