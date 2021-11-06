@@ -34,7 +34,7 @@ var JsonDiffer = /** @class */ (function () {
         var updates = {};
         for (var key in oldJSON) {
             if (newJSON.hasOwnProperty(key)) {
-                if (oldJSON[key] !== newJSON[key]) {
+                if (JSON.stringify(oldJSON[key]) !== JSON.stringify(newJSON[key])) {
                     updates[key] = {
                         old: oldJSON[key],
                         new: newJSON[key]
